@@ -1,8 +1,8 @@
 # [Re] An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale
 
-This project is part of the [UCSC OSPO](https://ospo.ucsc.edu/) summer of reproducibility fellowship and aims to create an interactive notebook that can be used to teach undergraduate or graduate students different levels of reproducibility in computer vision research.
+This project was implemented by [Mohamed Saeed](https://github.com/mohammed183) as part of the [UCSC OSPO](https://ospo.ucsc.edu/) Summer of Reproducibility 2023, and aims to create an interactive notebook that can be used to teach undergraduate or graduate students about reproducibility in computer vision research.
 
-The project is based on the paper "[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)" by Dosovitskiy et al., which introduces a novel way of applying the transformer architecture, which was originally designed for natural language processing, to image recognition tasks. The paper shows that transformers can achieve state-of-the-art results on several image classification benchmarks, such as ImageNet, when trained on large-scale datasets.
+In this project, we consider the paper "[An Image is Worth 16x16 Words: Transformers for Image Recognition at Scale](https://arxiv.org/abs/2010.11929)" by Dosovitskiy et al., which introduces a novel way of applying the transformer architecture, which was originally designed for natural language processing, to image recognition tasks. The paper shows that transformers can achieve state-of-the-art results on several image classification benchmarks, such as ImageNet, when trained on large-scale datasets.
 
 The notebook will guide the students through the following steps:
 
@@ -38,7 +38,7 @@ To run the notebook locally on your device, you'll need to install Python and Ju
 
 1. Clone the repository and navigate to the `re_vit` directory by running the following command:
 ```
-$ git clone https://github.com/mohammed183/re_vit.git && cd re_vit
+$ git clone https://github.com/teaching-on-testbeds/re_vit.git && cd re_vit
 ```
 
 2. Install the required packages by running this command:
@@ -61,7 +61,7 @@ You can run the notebook on Chameleon Cloud using either a Colab frontend or a J
 
 1. Clone the repository on the Jupyter interface for Chameleon Cloud by running the following command:
 ```
-$ git clone https://github.com/mohammed183/re_vit.git && cd re_vit
+$ git clone https://github.com/teaching-on-testbeds/re_vit.git && cd re_vit
 ```
 
 2. Open the `Reserve.ipynb` notebook, which is available in the `re_vit` directory.
@@ -72,7 +72,7 @@ Given the high resource requirements for the experiments in the notebooks, this 
 
 ### Option 3: Run on Google Colab
 
-You can also run the notebook on Google Colab. However, please note that the `ResNet.ipynb` notebook requires a high amount of GPU memory (24GB), which may not be available with a free Colab account. To open the `Start_Here.ipynb` file on Colab and navigate through the notebooks, click this button: <a target="_blank" href="https://colab.research.google.com/github/mohammed183/re_vit/blob/main/Start_Here.ipynb">
+You can also run the notebook on Google Colab. However, please note that the `ResNet.ipynb` notebook requires a high amount of GPU memory (24GB), which may not be available with a free Colab account. To open the `Start_Here.ipynb` file on Colab and navigate through the notebooks, click this button: <a target="_blank" href="https://colab.research.google.com/github/teaching-on-testbeds/re_vit/blob/main/Start_Here.ipynb">
   <img src="https://colab.research.google.com/assets/colab-badge.svg" alt="Open In Colab"/>
 </a>
 

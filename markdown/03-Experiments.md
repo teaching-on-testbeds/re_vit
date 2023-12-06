@@ -87,8 +87,8 @@ path = ''
 
 ::: {.cell .code}
 ```python
-# Download and run the valprep.sh script from the mohammed183/re_vit repository
-!cd data/imagenet/val && wget -qO- https://raw.githubusercontent.com/mohammed183/re_vit/main/imagenet_prep.sh | bash
+# Download and run the valprep.sh script from the teaching-on-testbeds/re_vit repository
+!cd data/imagenet/val && wget -qO- https://raw.githubusercontent.com/teaching-on-testbeds/re_vit/main/imagenet_prep.sh | bash
 ```
 :::
 
