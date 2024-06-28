@@ -14,8 +14,6 @@ The notebook will guide the students through the following steps:
 
 The notebook will use Python and PyTorch as the main tools and will require some basic knowledge of computer vision and neural networks.
 
-Here's a revised version of the text:
-
 ## Installation
 
 To run the notebook, you'll need to install the following dependencies:
